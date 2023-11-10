@@ -7,7 +7,7 @@ import numpy as np
 app = FastAPI()
 
 @app.post("/process_image/")
-async def process_image(file: UploadFile):
+async def process_image(file: UploadFile, logo: UploadFile):
     try:
         if not file.content_type.startswith("image/"):
             return {"error": "Invalid file format. Please provide an image."}
