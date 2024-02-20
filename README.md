@@ -1,10 +1,10 @@
 # Hidden Plate
 
-Hidden Plate is a program designed to obscure the number plates of vehicles in images. It serves as a tool for online car dealerships to maintain privacy and minimize the risks associated with uploading vehicle images containing license plate information to the internet.
+Hidden Plate is a program designed to obscure the number plates of vehicles in images of cars. It serves as a tool for online car dealerships to maintain privacy and minimize the risks associated with uploading vehicle images containing license plate information to the internet.
 
 ## Program Description
 
-The program is trained on the annotated data downloaded from roboflow. The dataset is present <a href = "https://universe.roboflow.com/kanwal-masroor-gv4jr/yolov7-license-plate-detection">here. </a> The program utilizes YOLOv8 for image processing for detecting number plates in the image and uses computer vision to obscure number plates in vehicle images. This ensures that sensitive information is protected before images are uploaded to online platforms.
+The program is trained on the annotated data downloaded from the roboflow. The dataset is present <a href = "https://universe.roboflow.com/kanwal-masroor-gv4jr/yolov7-license-plate-detection">here. </a> The program utilizes YOLOv8 for image processing for detecting number plates in the image and uses computer vision to obscure number plates in vehicle images. This ensures that sensitive information is protected before images are uploaded to online platforms.
 
 ## Program Demonstration
 
@@ -16,7 +16,7 @@ The program is trained on the annotated data downloaded from roboflow. The datas
 
 ## Usage
 
-This model can be easily used by cloning the repository and changing the path of the input file in the script <a href="source/hide_test.py">hide_test.py</a> . Alongisde that you will have to install the requirements present at <a href="requirements.txt"> requirements.txt</a>. 
+This model can be easily used by cloning the repository and changing the path of the input file in the script <a href="source/hide_test.py">hide_test.py</a>. Alongside that you will have to install the requirements present at <a href="requirements.txt"> requirements.txt</a>. 
 
 ## Conclusion
 
